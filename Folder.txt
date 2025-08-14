@@ -1,0 +1,44 @@
+SLMTAP/
+│
+├── client/                     # Frontend (React)
+│   ├── public/
+│   └── src/
+│       ├── assets/             # Images, logos, etc.
+│       ├── components/         # Reusable components (Navbar, Footer, etc.)
+│       ├── pages/              # Page components (Home, Login, Register, Admin)
+│       │   ├── Home.jsx
+│       │   ├── About.jsx
+│       │   ├── HowItWorks.jsx
+│       │   ├── Hospitals.jsx
+│       │   ├── Login.jsx
+│       │   ├── Register.jsx
+│       │   └── AdminDashboard.jsx
+│       ├── context/            # Auth, Global state
+│       ├── services/           # API requests (axios)
+│       ├── routes/             # React router configs
+│       ├── App.jsx
+│       └── main.jsx
+│
+├── server/                     # Backend (Node + Express)
+│   ├── config/                 # DB connection & JWT
+│   │   └── db.js
+│   ├── controllers/            # Business logic
+│   │   ├── authController.js
+│   │   ├── hospitalController.js
+│   │   └── treatmentController.js
+│   ├── models/                 # MongoDB models
+│   │   ├── User.js
+│   │   ├── Hospital.js
+│   │   └── Appointment.js
+│   ├── routes/                 # Express routes
+│   │   ├── authRoutes.js
+│   │   ├── hospitalRoutes.js
+│   │   └── treatmentRoutes.js
+│   ├── middleware/             # Auth middleware, error handling
+│   │   └── authMiddleware.js
+│   └── index.js                # Main entry point
+│
+├── .env                        # Environment variables
+├── .gitignore
+├── package.json
+└── README.md
