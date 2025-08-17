@@ -1,0 +1,131 @@
+/* ✅ Admin Panel Layout */
+.admin-layout {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f6fc;
+  overflow: hidden;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 16px;
+  background: white;
+  overflow-y: auto;
+}
+
+.admin-content h1 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+/* ✅ Top Stats Panel */
+.stats-panel {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.stat-box {
+  background-color: #f1efff;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  flex: 1;
+  min-width: 150px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+}
+
+.stat-box strong {
+  font-size: 18px;
+  color: #111;
+}
+
+/* ✅ Row Layout for Bottom Cards */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* ✅ Chart Box (Pie/Donut) */
+.chart-box {
+  width: 563px;
+  height: 200px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+}
+
+/* ✅ Recent Activities */
+.activity-box {
+  flex: 1;
+  width: 20px;
+  height: 200px;
+  overflow-y: auto;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* ✅ Daily Visits Summary (Text) */
+.daily-visits-box {
+  flex: 1;
+  min-width: 160px;
+  height: 180px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 38px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* ✅ Section Titles */
+.chart-box h3,
+.activity-box h3,
+.daily-visits-box h3 {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: left;
+  
+}
+
+/* ✅ List Text */
+ul {
+  padding-left: 18px;
+  line-height: 1.4;
+  font-size: 13px;
+  margin: 0;
+}
+
+/* ✅ Smooth Scrollbar */
+.activity-box::-webkit-scrollbar {
+  width: 4px;
+  background: transparent;
+}
+/* src/pages/admin/AdminDashboard.css */
+.admin-dashboard-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #f9f9f9;
+}

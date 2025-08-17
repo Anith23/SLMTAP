@@ -1,0 +1,118 @@
+.main-content {
+  padding: 20px;
+  width: 100%;
+  background: linear-gradient(145deg, #f3f3f9, #e6e9ff);
+  min-height: 100vh;
+}
+
+.search-bar {
+  width: 300px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.hospital-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.hospital-table th,
+.hospital-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.hospital-table th {
+  background: #f5f5f5;
+  font-weight: bold;
+}
+
+.hospital-name {
+  color: blue;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #0b5ed7;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #b30000;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #0a53be;
+}
+
+.delete-btn:hover {
+  background-color: #990000;
+}
+
+.save-btn {
+  background-color: #198754;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: #157347;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background-color: #5a6268;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-btn {
+  background-color: #4a148c;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #6a1b9a;
+}

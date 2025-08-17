@@ -1,0 +1,56 @@
+/* ✅ Ensure CSS overrides Bootstrap/Tailwind */
+.search-results-container {
+  padding: 20px;
+  font-family: Arial, sans-serif !important;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.search-results-title {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.no-results {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+}
+
+/* Table Styling */
+.search-results-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.search-results-table th,
+.search-results-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.search-results-table th {
+  background-color: #007bff !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.search-results-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.search-results-table tr:hover {
+  background-color: #e0e0e0;
+}
